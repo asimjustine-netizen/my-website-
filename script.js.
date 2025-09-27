@@ -1,3 +1,8 @@
-document.getElementById("btn").addEventListener("click", function() {
-  alert("You clicked the button! 🚀");
-});
+<button onclick="changeText()">Click me!</button>
+<p id="demo">Hello World!</p>
+
+<script>
+  function changeText() {
+    document.getElementById("demo").innerHTML = "You clicked the button!";
+  }
+</script>
